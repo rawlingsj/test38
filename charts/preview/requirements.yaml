@@ -10,3 +10,4 @@ dependencies:
   version: 2.3.53
 - name: test38
   repository: file://../test38
+  alias: preview
