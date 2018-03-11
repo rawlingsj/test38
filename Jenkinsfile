@@ -10,6 +10,9 @@ pipeline {
       GIT_USERNAME      = "$GIT_CREDS_USR"
       GIT_API_TOKEN     = "$GIT_CREDS_PSW"
       BRANCH_NAME       = "$BRANCH_NAME"
+      JOB_NAME          = "$JOB_NAME"
+      BUILD_URL         = "$BUILD_URL"
+      BUILD_LOG_URL     = "$BUILD_LOG_URL"
     }
     stages {
       stage('CI Build and push snapshpt') {
