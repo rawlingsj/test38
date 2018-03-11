@@ -13,6 +13,7 @@ pipeline {
       JOB_NAME          = "$JOB_NAME"
       BUILD_URL         = "$BUILD_URL"
       BUILD_LOG_URL     = "$BUILD_LOG_URL"
+      BUILD_NUMBER      = "$BUILD_NUMBER"
     }
     stages {
       stage('CI Build and push snapshpt') {
